@@ -1,9 +1,13 @@
 body {
 	margin: 0;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+}
+
+#clock {
+	font-size: 16vmin;
+	text-align: center;
 }
